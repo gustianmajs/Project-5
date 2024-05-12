@@ -15,10 +15,10 @@ project-5/
 
 ```
 
+- `app/main.py`: File utama aplikasi Flask yang berisi logika dan endpoint-endpoint HTTP.
 - `docker-compose.yml`: File konfigurasi Docker Compose untuk menjalankan aplikasi dengan service database PostgreSQL dan service Flask.
 - `Dockerfile`: File Dockerfile untuk membangun image Docker dari aplikasi Flask.
 - `requirements.txt`: Daftar dependensi Python yang diperlukan oleh aplikasi.
-- `app/main.py`: File utama aplikasi Flask yang berisi logika dan endpoint-endpoint HTTP.
 
 ## Instalasi dan Penggunaan
 
