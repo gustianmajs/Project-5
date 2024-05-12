@@ -7,11 +7,12 @@ Project 5 adalah aplikasi Flask sederhana yang menggunakan Docker untuk mengelol
 ```
 project-5/
 │
+├── app/
+│   └── main.py
 ├── docker-compose.yml
 ├── Dockerfile
 ├── requirements.txt
-├── app/
-    └── main.py
+
 ```
 
 - `docker-compose.yml`: File konfigurasi Docker Compose untuk menjalankan aplikasi dengan service database PostgreSQL dan service Flask.
