@@ -22,9 +22,10 @@ services:
       MB_DB_USER: postgres
     volumes:
       - ./app:/app
+    links:
+      - postgres-db:postgres-db
     ports:
       - 5000:5000/tcp
-
 volumes:
   pg-data:     #docker volume create pg-data
     external: true
